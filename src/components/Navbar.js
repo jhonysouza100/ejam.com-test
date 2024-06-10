@@ -1,15 +1,26 @@
 import {  RiArrowLeftSLine, RiArrowRightSLine, RiCheckboxCircleLine } from "@remixicon/react";
-import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
-import SwiperJS from "./Swiper";
+import Image from "next/image";
 
 function Navbar() {
 
   return (
     <header className="header bg-body text-body text-xs">
-      <div className="bg-slate-700 w-screen container mx-0 px-2 sm:px-4 lg:px-20 max-w-[10000px]">
-        <nav className="navmenu py-2 top-0 container mx-auto max-w-[10000px] flex justify-center lg:justify-between items-center">
-          <SwiperJS className="container" />
-         
+      <div className="bg-slate-700 w-screen container mx-0 px-2 sm:px-4 md:px-14 max-w-[10000px]">
+        <nav className="navmenu py-2 top-0 container mx-auto max-w-[10000px] flex justify-between md:justify-around items-center">
+          <RiArrowLeftSLine className="w-5 h-5 md:hidden" />
+          <div className="text- text-nowrap">
+            <span className="flex gap-1 items-center"><RiCheckboxCircleLine className="w-5 h-5" />30-DAY SATISFACTION GUARANTEE</span>
+          </div>
+          <div className="text- text-nowrap hidden md:block">
+            <span className="flex gap-1 items-center"><RiCheckboxCircleLine className="w-5 h-5" />30-DAY SATISFACTION GUARANTEE</span>
+          </div>
+          <div className="text- text-nowrap hidden md:block">
+            <span className="flex gap-1 items-center"><RiCheckboxCircleLine className="w-5 h-5" />30-DAY SATISFACTION GUARANTEE</span>
+          </div>
+          <div className="text- text-nowrap hidden md:block">
+            <span className="flex gap-1 items-center"><RiCheckboxCircleLine className="w-5 h-5" />30-DAY SATISFACTION GUARANTEE</span>
+          </div>
+          <RiArrowRightSLine className="w-5 h-5 md:hidden" />
         </nav>
       </div>
     </header>

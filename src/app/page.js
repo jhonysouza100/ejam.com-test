@@ -32,7 +32,7 @@ function page() {
           <span className="flex flex-col md:flex-row justify-center items-center gap-1 md:gap-2"><Avatar className="w-6 h-6 xl:w-7 xl:h-7 p-1 border border-blue-600 bg-transparent"><RiNumber4 className=" text-blue-600" /></Avatar><p className="text-center text-[.65rem] md:text-base text-nowrap">Confirmation</p></span>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 bg-zinc-100 p-2 mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:mt-8 md:mb-16 gap-2 md:gap-4 bg-zinc-100 p-2 mb-4">
           {/* ================ LEFT SIDE ================ */}
           <div className="left-side flex flex-col gap-4 items-center justify-between">
             <Image className="w-full flex-grow" src={'/images/wallpaper-img.jpg'} width={272} height={272} objectFit="cover" alt="wallpaper image" />
